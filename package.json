@@ -1,5 +1,5 @@
 {
-  "name": "@sean/eslint-config",
+  "name": "@sean/eslint",
   "version": "1.0.0",
   "type": "module",
   "main": "eslint.config.mjs",
