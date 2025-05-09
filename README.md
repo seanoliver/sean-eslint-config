@@ -13,13 +13,6 @@ My personal ESLint and Prettier configuration rules for JavaScript and TypeScrip
 ## Installation
 
 ```bash
-# Using npm
-npm install --save-dev sean-eslint-config
-
-# Using yarn
-yarn add --dev sean-eslint-config
-
-# Using pnpm
 pnpm add -D sean-eslint-config
 ```
 
@@ -28,7 +21,7 @@ pnpm add -D sean-eslint-config
 This package has the following peer dependencies that you'll need to install:
 
 ```bash
-npm install --save-dev eslint@^9.0.0 @typescript-eslint/eslint-plugin@^7.0.0 @typescript-eslint/parser@^7.0.0 eslint-config-prettier@^9.0.0 prettier@^3.0.0
+pnpm add -D eslint@latest @typescript-eslint/eslint-plugin@latest @typescript-eslint/parser@latest eslint-config-prettier@latest prettier@latest
 ```
 
 ## Usage
