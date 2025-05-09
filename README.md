@@ -1,4 +1,4 @@
-# @sean/eslint
+# sean-eslint-config
 
 My personal ESLint and Prettier configuration rules for JavaScript and TypeScript projects.
 
@@ -14,13 +14,13 @@ My personal ESLint and Prettier configuration rules for JavaScript and TypeScrip
 
 ```bash
 # Using npm
-npm install --save-dev @sean/eslint
+npm install --save-dev sean-eslint-config
 
 # Using yarn
-yarn add --dev @sean/eslint
+yarn add --dev sean-eslint-config
 
 # Using pnpm
-pnpm add -D @sean/eslint
+pnpm add -D sean-eslint-config
 ```
 
 ### Peer Dependencies
@@ -38,7 +38,7 @@ npm install --save-dev eslint@^9.0.0 @typescript-eslint/eslint-plugin@^7.0.0 @ty
 Create an `eslint.config.mjs` file in your project root:
 
 ```javascript
-import seanConfig from '@sean/eslint'
+import seanConfig from 'sean-eslint-config'
 
 export default [
   ...seanConfig,
@@ -51,7 +51,7 @@ export default [
 Create a `prettier.config.mjs` file in your project root:
 
 ```javascript
-import seanPrettierConfig from '@sean/eslint/prettier'
+import seanPrettierConfig from 'sean-eslint-config/prettier'
 
 export default {
   ...seanPrettierConfig,
