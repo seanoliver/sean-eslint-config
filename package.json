@@ -1,0 +1,17 @@
+{
+  "name": "@sean/eslint-config",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "eslint.config.mjs",
+  "exports": {
+    ".": "./eslint.config.mjs",
+    "./prettier": "./prettier.config.mjs"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.0"
+  }
+}
